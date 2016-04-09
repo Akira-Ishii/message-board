@@ -3,10 +3,17 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-  .label-info {
-    margin: 5px 0;
+  
+  td[name="m_name"] {
+    width: 30px;
   }
+  
+  .table-condensed>tbody>tr>td {
+    padding-top: 0.10em;
+    padding-bottom: 0.10em;
+  }
+  
+  .table>tbody>tr>td {
+    border : none;
+  } 
 
-  input#message_name, textarea#message_body {
-    display: block;
-  }
