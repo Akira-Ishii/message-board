@@ -1,16 +1,15 @@
 // Place all the styles related to the messages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-  td[name="m_name"] {
-    width: 30px;
-  }
-  
-  .table-condensed>tbody>tr>td {
-    padding-top: 0.10em;
-    padding-bottom: 0.10em;
-  }
-  
-  .table>tbody>tr>td {
-    border : none;
-  } 
+td[name="m_name"] {
+  width: 30px;
+}
 
+.table-condensed>tbody>tr>td {
+  padding-top: 0.10em;
+  padding-bottom: 0.10em;
+}
+
+.table>tbody>tr>td {
+  border : none;
+} 
