@@ -6,3 +6,40 @@
   display: inline-block;
   border: 1px solid #f00;
 }
+
+td[name="m_name"] {
+  width: 30px;
+}
+
+.table-condensed>tbody>tr>td {
+  padding-top: 0.10em;
+  padding-bottom: 0.10em;
+}
+
+.table>tbody>tr>td {
+  border : none;
+} 
+
+
+@media (min-width: 550px){
+.col-sm-1 {
+    width: 12%;
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: right;
+    float: left;
+}
+}
+
+@media (min-width: 550px){
+.col-sm-11 {
+    width: 88%;
+    float: left;
+}
+}
+
+@media (min-width: 550px){
+.col-sm-offset-1 {
+    margin-left: 12%;
+}
+}
