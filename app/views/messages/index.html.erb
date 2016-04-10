@@ -9,19 +9,18 @@
         <% @messages.each do |message| %>        
           <tr>
               <td name="m_name" align="right"><span class="label label-info"><%= message.name %></span></td>
-              <td><%=message.age %>yo</td>
+              <td name="m_age" align="center"><span class="label label-pill label-default"><%= message.age %>才</span></td>
               <td><%= message.body %>
-              <%= link_to "edit" , edit_message_path(message) %>
-              <%= link_to "destroy" , message , method: :delete, data: { confirm: '削除してもよろしいですか？' } %></td>
+                (
+                <%= link_to "edit" , edit_message_path(message) %>
+                <%= link_to "destroy" , message , method: :delete, data: { confirm: '削除してもよろしいですか？' } %>
+                ) 
+              </td>
           </tr>
-          <br />
         <% end %>
       </tbody>
     </table>
   </div>
 </div>
 
-<% #部分テンプレートを読み込んでいる %>
-
 <%= render 'form' %>
-
