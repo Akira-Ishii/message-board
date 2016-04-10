@@ -13,3 +13,27 @@ td[name="m_name"] {
 .table>tbody>tr>td {
   border : none;
 } 
+
+
+@media (min-width: 550px){
+.col-sm-1 {
+    width: 12%;
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: right;
+    float: left;
+}
+}
+
+@media (min-width: 550px){
+.col-sm-11 {
+    width: 88%;
+    float: left;
+}
+}
+
+@media (min-width: 550px){
+.col-sm-offset-1 {
+    margin-left: 12%;
+}
+}
